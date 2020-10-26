@@ -1,0 +1,91 @@
+html {
+  background-color: #f2f7f2;
+}
+
+body {
+  max-width: 960px;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Source Sans Pro", Sans-Serif;
+}
+
+nav {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #bcaa99;
+  padding: 1rem;
+}
+
+main {
+  min-height: 72vh;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#about-me {
+  width: 100%;
+  display: flex;
+}
+
+.about-info {
+  width: 70%;
+  margin-right: 4rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#ada-portrait {
+  width: 30%;
+  height: 350px;
+}
+
+.hidden {
+  display: none;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", Serif;
+  font-style: italic;
+}
+
+h2 {
+  color: #bbbe64;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f2f7f2;
+}
+
+.drop-down {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8e5572;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.drop-down i {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #443850;
+  padding: 1rem;
+}
