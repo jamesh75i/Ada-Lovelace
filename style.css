@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  max-width: 960px;
+  max-width: 1280px;
   justify-content: center;
   margin: 0 auto;
   font-size: 18px;
@@ -20,7 +20,8 @@ nav {
 }
 
 main {
-  min-height: 72vh;
+  min-height: 70vh;
+  margin: 0 1rem;
 }
 
 ul li {
@@ -63,10 +64,11 @@ h2 {
 
 h2 {
   color: #bbbe64;
+  font-size: 2.5rem;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
   color: #f2f7f2;
 }
 
@@ -89,3 +91,23 @@ footer {
   background-color: #443850;
   padding: 1rem;
 }
+
+.signature-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.babbage-nav {
+  background-color: #009fd4;
+}
+
+.babbage-nav h1 {
+  color: #f4d35e;
+  font-family: "Roboto", Sans-Serif;
+  font-size: 48px;
+  font-style: normal;
+}
+
+/* Font-Family: 'Lora', Serif;
+Font-Size: 14px; */
