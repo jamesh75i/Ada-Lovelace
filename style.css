@@ -109,5 +109,69 @@ footer {
   font-style: normal;
 }
 
+.byron-nav {
+  font-family: "Staatliches", cursive;
+  background-color: #ff0000;
+  color: #dfdfdf;
+}
+
+.byron-nav h1 {
+  font-family: "Staatliches", cursive;
+  color: #dfdfdf;
+  font-style: normal;
+}
+
+.byron-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.byron-row h2 {
+  font-family: cursive;
+  color: #242424;
+}
+
+.byron-row img {
+  width: 600px;
+  height: 600px;
+}
+
+blockquote {
+  margin: 0;
+  width: 500px;
+}
+
+blockquote p {
+  padding: 55px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote div {
+  text-align: end;
+}
+
+#quote {
+  display: flex;
+  justify-content: center;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
 /* Font-Family: 'Lora', Serif;
 Font-Size: 14px; */
+.bryon-footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #242424;
+  color: #ff0000;
+  display: flex;
+  justify-content: space-around;
+}
