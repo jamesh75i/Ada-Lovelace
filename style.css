@@ -175,3 +175,30 @@ Font-Size: 14px; */
   display: flex;
   justify-content: space-around;
 }
+
+#babbage-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#babbage-img img {
+  width: 300px;
+  height: 300px;
+}
+
+#bab-heading {
+  text-align: center;
+  color: #333;
+  font-style: normal;
+}
+
+.engine {
+  display: flex;
+  justify-content: center;
+}
+
+.engine img {
+  width: 800px;
+  height: 800px;
+}
